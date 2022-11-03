@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    -o-box-sizing: border-box; 
+
+}
+
+.header {
+    width: 100%;
+    &__caption_box {
+        background-color: #160d76;
+        color: white;
+    }
+}
+
+.main {
+    &__image_box {
+        background-image: url("./Images/Background.png");
+
+        &__caption {
+        color: yellow;
+        }
+
+        &__page {
+
+            &__description {
+                background-color: #454545;
+                color: white;
+
+            }
+        }
+    }
+    &__news_box {
+
+        &__div {
+            background-color: #fe0000;
+            color: white;
+            &__page {
+                
+                background-color: #454545;
+            }
+        }
+
+
+    }
+}

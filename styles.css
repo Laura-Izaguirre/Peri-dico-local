@@ -1,3 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
 
+.header {
+  width: 100%;
+}
+.header__caption_box {
+  background-color: #160d76;
+  color: white;
+}
+
+.main__image_box {
+  background-image: url("./Images/Background.png");
+}
+.main__image_box__caption {
+  color: yellow;
+}
+.main__image_box__page__description {
+  background-color: #454545;
+  color: white;
+}
+.main__news_box__div {
+  background-color: #fe0000;
+  color: white;
+}
+.main__news_box__div__page {
+  background-color: #454545;
+}
 
 /*# sourceMappingURL=styles.css.map */
