@@ -7,16 +7,31 @@
   -o-box-sizing: border-box;
 }
 
+body {
+  text-align: center;
+}
+
 .header {
   width: 100%;
 }
 .header__caption_box {
   background-color: #160d76;
   color: white;
+  padding: 1rem 0;
+}
+.header__description_box {
+  padding: 0.5rem 0;
 }
 
 .main__image_box {
   background-image: url("./Images/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main__image_box__caption {
   color: yellow;
@@ -25,11 +40,20 @@
   background-color: #454545;
   color: white;
 }
+.main__news_box {
+  display: flex;
+  align-items: flex-end;
+}
 .main__news_box__div {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
   background-color: #fe0000;
   color: white;
 }
 .main__news_box__div__page {
+  align-self: flex-end;
+  width: 7%;
   background-color: #454545;
 }
 
